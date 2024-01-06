@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Overlock+SC&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Abril Fatface', serif;
+        }
+        body{
+            background-color: rgba(0, 0, 0, 0.789);
+            display: grid;
+            place-items: center;
+            min-height: 100vh;
+        }
+        .clock{
+            display: flex;
+            gap: 1rem;
+            font-size: 1.3rem;
+            text-align: center;
+            color: #fff;
+            align-items: center;
+        }
+        .box{
+            width: 30px;
+            height: 30px;
+            background-color: #000;
+            color: #fff;
+            margin: 1rem;
+            padding: 0.4rem;
+            box-shadow: 0px 0px 10px #fff;
+            border-radius: 4px;
+            font-size: 1.3rem;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="clock">
+        <div class="box" id="hour">10</div>:
+        <div class="box" id="min">30</div>:
+        <div class="box" id="sec">20</div>:
+        <div class="box" id="timePeriod">AM</div>
+    </div>
+    <script src="js project 6\p6.js"></script>
+</body>
+</html>
